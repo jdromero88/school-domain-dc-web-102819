@@ -18,7 +18,7 @@ class School
   end
 
   # this method should arrange the students in each grade by alphabetical order
-  def sort
+  def sort #Im confuse ask for clarification
     sorted = {}
     roster.each do |grade, students|
       sorted[grade] = students.sort
